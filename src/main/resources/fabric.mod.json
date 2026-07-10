@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "junglefang",
+  "version": "${version}",
+  "name": "Jungle Fang",
+  "description": "Adds a single item called Jungle Fang that deals 8 attack damage.",
+  "authors": ["JungleFang"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/junglefang/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.junglefang.JungleFangMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
